@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.body{
+    background-color: beige;
+    color: black;
+    font-family: "Varela Round", sans-serif;
+}
+
+.cabeca{
+    text-align: center;
+    background-color: rgb(177, 173, 128);
+    width: 500px;
+    border-radius: 10px;
+}
+
+.meio{
+  width: 500px;
+  align-items: center;
+}
