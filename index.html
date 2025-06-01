@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula290525 - Forms</title>
+    <link rel="stylesheet" href="configuracoes.css">
+
+</head>
+
+<body class="body">
+
+    <div class="meio">
+
+        <div class="cabeca">
+
+            <h1>Pesquisa sobre os Cursos</h1>
+
+        </div>
+
+    </div>
+
+    <form action="forms.html">
+
+        <label for="nomep">Nome</label><br>
+        <input type="text" id="nomep"><br>
+        <label for="sobrenome">Sobrenome</label><br>
+        <input type="text" id="sobrenome"><br>
+
+        <br>
+
+        <label>Curso:</label>
+
+        <div class="radio">
+            <label><input type="radio" value="TINF" name="curso">Técnico em Informática</label><br>
+            <label><input type="radio" value="TELE" name="curso">Técnico em Eletrônica</label><br>
+            <label><input type="radio" value="TCONT" name="curso">Técnico em Contabilidade</label><br>
+            <label><input type="radio" value="TADM" name="curso">Técnico em Administração</label>
+        </div>
+
+        <br>
+
+        <label>Já estagiou?</label><br>
+
+        <div class="radio-group">
+            <label><input type="radio" value="SIM" name="estagio">Sim</label><br>
+            <label><input type="radio" value="NAO" name="estagio">Não</label>
+        </div>
+
+        <br>
+
+        <label>Matéria favorita:</label><br>
+        <select name="" id="">
+
+            <option value="Prog">Progração</option>
+            <option value="Mat">Matemática</option>
+            <option value="Hist">Hitória</option>
+            <option value="Geo">Geografia</option>
+            <option value="Port">Português</option>
+            <option value="Bio">Biologia</option>
+            <option value="Empre">Empreededorismo</option>
+            <option value="SO">Sistemas Operacionais</option>
+            <option value="Mont">Montagem e manutenção de computadores e redes</option>
+            <option value="Ing">Ingles</option>
+            <option value="Fis">Física</option>
+            <option value="Qui">Química</option>
+            <option value="Filo">Filosofia</option>
+            <option value="Nenh">Nenhuma</option>
+
+        </select>
+        <br>
+
+        <br><label>Turno favorito:</label><br>
+
+        <div class="checkbox-group">
+            <label><input type="checkbox" value="manha">Manhã</label><br>
+            <label><input type="checkbox" value="Tarde">Tarde</label><br>
+            <label><input type="checkbox" value="Noite">Noite</label>
+        </div>
+
+        <label>Por que escolheu esse curso?</label><br>
+        <textarea rows="10" cols="50"></textarea><br>
+
+        <br><button>Enviar</button>
+
+    </form>
+
+</body>
+
+</html>
